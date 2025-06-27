@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análisis de Vault ICL</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f8f9fa; }
+    h1, h2 { color: #0d6efd; }
+    img { max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 15px; }
+    section { background-color: #fff; padding: 20px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .container { max-width: 900px; margin: auto; }
+    .qr-code { text-align: center; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Estudio de Vault en Lentes ICL</h1>
+
+    <section>
+      <h2>Resumen</h2>
+      <p>Este estudio comparativo analizó la precisión de la fórmula LASSO frente al vault real posquirúrgico en pacientes con lentes fáquicas ICL. Se incluyeron 18 pacientes del Instituto Panamericano contra la Ceguera entre 2022 y 2025. El modelo LASSO mostró limitaciones significativas, con un error absoluto promedio de 275.1 µm y solo el 27.8% de aciertos dentro del margen clínico aceptable. Todos los pacientes mostraron mejoría visual.</p>
+    </section>
+
+    <section>
+      <h2>Gráficos y Análisis</h2>
+      <p><strong>1. Dispersión Vault Real vs Predicho</strong></p>
+      <img src="scatter_vault_real_vs_predicho.png" alt="Gráfico de Dispersión">
+      <p><strong>2. Diferencia Vault Real - Predicho</strong></p>
+      <img src="diferencia_vault.png" alt="Diferencias por paciente">
+      <p><strong>3. Bland-Altman</strong></p>
+      <img src="bland_altman_vault_nuevo.png" alt="Bland-Altman">
+      <p><strong>4. Histograma</strong></p>
+      <img src="histograma_vault.png" alt="Histograma">
+      <p><strong>5. Gráfico de Caja</strong></p>
+      <img src="boxplot_vault.png" alt="Boxplot">
+      <p><strong>6. Evolución por Paciente</strong></p>
+      <img src="linea_vault_por_paciente.png" alt="Gráfico de Línea">
+      <p><strong>7. Error Absoluto</strong></p>
+      <img src="error_absoluto_vault.png" alt="Error Absoluto">
+    </section>
+
+    <section class="qr-code">
+      <h2>Accede al contenido desde tu móvil</h2>
+      <p>Escanea este código QR para ver los gráficos y análisis completos en tu dispositivo.</p>
+      <img src="qr_vault_estudio.png" alt="Código QR">
+    </section>
+  </div>
+</body>
+</html>
